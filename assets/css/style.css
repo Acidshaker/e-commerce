@@ -736,6 +736,14 @@ body.dark-theme {
   justify-content: space-between;
 }
 
+.cart__price {
+  width: 40%;
+}
+
+.cart__subtotal-price {
+  width: 20%;
+}
+
 .cart__stock {
   display: block;
   font-size: var(--small-font-size);
@@ -744,7 +752,7 @@ body.dark-theme {
 }
 
 .cart__price {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-0-5);
 }
